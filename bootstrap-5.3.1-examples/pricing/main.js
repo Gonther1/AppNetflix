@@ -29,6 +29,7 @@ let sectAddSecondDiv= async()=>{
     </p>`
     )
 }
-sectAddSecondDiv()
 sectAddFistDiv()
-
+sectAddSecondDiv()
+/* Main */
+// First Div
