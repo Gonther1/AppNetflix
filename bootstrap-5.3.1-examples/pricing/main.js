@@ -4,11 +4,20 @@
 //     console.log(res)
 // })('config')
 
-
-//Primer Div
-
-//Segundo Div
+/* Header */
 const path= 'config';
+//Primer Div
+let agregarLogo= async()=>{
+    let modificado= await fetch(`${path}.json`)
+    let res = await modificado.json();
+    let selecion = document.querySelector("#myFirstDiv")
+    selecion.insertAdjacentHTML("beforeend",/* html */`
+    <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+    <img src="${res.header.primerDiv.imagen}" alt="" style="width: 20%; height:14%">
+    </a>`
+    )
+}
+//Segundo Div
 let construirElEncabezado= async()=>{
     let peticion = await fetch(`${path}.json`)
     let res = await peticion.json();
@@ -21,3 +30,5 @@ let construirElEncabezado= async()=>{
     )
 }
 construirElEncabezado()
+agregarLogo()
+
