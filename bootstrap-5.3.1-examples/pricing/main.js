@@ -7,7 +7,7 @@
 /* Header */
 const path= 'config';
 //Primer Div
-let agregarLogo= async()=>{
+let sectAddFistDiv= async()=>{
     let modificado= await fetch(`${path}.json`)
     let res = await modificado.json();
     let selecion = document.querySelector("#myFirstDiv")
@@ -18,7 +18,7 @@ let agregarLogo= async()=>{
     )
 }
 //Segundo Div
-let construirElEncabezado= async()=>{
+let sectAddSecondDiv= async()=>{
     let peticion = await fetch(`${path}.json`)
     let res = await peticion.json();
     let selecion = document.querySelector("#mySecondDiv")
@@ -29,6 +29,6 @@ let construirElEncabezado= async()=>{
     </p>`
     )
 }
-construirElEncabezado()
-agregarLogo()
+sectAddSecondDiv()
+sectAddFistDiv()
 
