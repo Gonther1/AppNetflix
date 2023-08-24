@@ -8,5 +8,47 @@
             "parrafo":"Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization."
         }
         
+    },
+    "main":{
+        "primerDiv":{
+            "essential":{
+                "titulo":"Essential",
+                "precio":"$0",
+                "small":"/mo",
+                "addiitonal":{
+                    "firstLi":"10 users included",
+                    "secondLi":"2 GB of storage",
+                    "thirdLi":"Email support",
+                    "fourthLi":"Help center access"
+                }
+            },
+            "standar":{
+                "titulo":"Standar",
+                "precio":"$15",
+                "small":"/mo",
+                "addiitonal":{
+                    "firstLi":"20 users included",
+                    "secondLi":"10 GB of storage",
+                    "thirdLi":"Priority email support",
+                    "fourthLi":"Help center access"
+                } 
+                
+            },
+            "premium":{
+                "titulo":"Premium",
+                "precio":"$29",
+                "small":"/mo",
+                "addiitonal":{
+                    "firstLi":"30 users included",
+                    "secondLi":"15 GB of storage",
+                    "thirdLi":"Phone and email support",
+                    "fourthLi":"Help center access"
+                }
+            }
+        },
+        "segundoDiv":{
+
+        }
     }
+
 }
