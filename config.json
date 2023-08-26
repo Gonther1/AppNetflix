@@ -52,40 +52,40 @@
             "essential":{
                 "tittle":"Essential",
                 "price":"COP16,900",
-                "quality":"Buena",
+                "quality":"Good",
                 "resolution":"720p",
                 "svg":"<svg class='bi' width='24' height='24'><use xlink:href='#check'/></svg>"                
             },
             "standar":{
                 "tittle":"Standar",
                 "price":"COP26,900",
-                "quality":"Mejor",
+                "quality":"Better",
                 "resolution":"1080p",
                 "svg":"<svg class='bi' width='24' height='24'><use xlink:href='#check'/></svg>"                
             },
             "premium":{
                 "tittle":"Premium",
                 "price":"COP38,900",
-                "quality":"Optima",
+                "quality":"Optim",
                 "resolution":"4K+HDR",
                 "svg":"<svg class='bi' width='24' height='24' style='color: red;'><use xlink:href='#check'/></svg>"                
             },
-            "price":"Precio mensual",
-            "quality":"Calidad de video",
-            "resolution":"Resolucion",
-            "additional":"Ve Netflix en tu TV, computadora, celular y tablet"
+            "price":"Monthly price",
+            "quality":"Video quality",
+            "resolution":"Resolution",
+            "additional":"Watch Netflix on your TV, computer, cell phone and tablet"
         }
     },
     "footer":{
         "image":"img/n-de-netflix.png",
         "textCampus":"&copy; Campuslands 2023 Bucaramanga",
-        "textQuestion":"¿Preguntas? Llama al 01 800 917 1564",
-        "frequentsQuestions":"Preguntas frecuentes",
-        "privacity":"Privacidad",
-        "help":"Centro de ayuda",
-        "cookies":"Preferencias de cookies",
-        "netflixShop":"Tienda de Netflix",
-        "information":"Información corporativa",
-        "terms":"Términos de uso"
+        "textQuestion":"Questions? Call 01 800 917 1564",
+        "frequentsQuestions":"Frequent questions",
+        "privacity":"Privacity",
+        "help":"Help Center",
+        "cookies":"Cookie preferences",
+        "netflixShop":"Netflix Store",
+        "information":"Corporate information",
+        "terms":"Terms of use"
     }
 }
