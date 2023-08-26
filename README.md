@@ -1,3 +1,5 @@
-# Aplicacion de Netflix con Bootstrap
+# App Netflix with bootstrap
+
+
 
 ## By: Luis Andrés Alvarez Silva
