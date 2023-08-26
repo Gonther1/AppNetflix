@@ -1,18 +1,18 @@
 {
     "header":{
-        "primerDiv":{
-            "imagen":"../img/Netflix-red.png"
+        "firstDiv":{
+            "image":"../img/Netflix-red.png"
         },
-        "segundoDiv":{
-            "titulo":"Netflix",
-            "parrafo":"Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization."
+        "secondDiv":{
+            "tittle":"Netflix",
+            "text":"Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization."
         }
     },
     "main":{
-        "primerDiv":{
+        "firstDiv":{
             "essential":{
-                "titulo":"Essential",
-                "precio":"$0",
+                "tittle":"Essential",
+                "price":"$0",
                 "small":"/mo",
                 "adittional":{
                     "firstLi":"10 users included",
@@ -23,8 +23,8 @@
                 "button":"Sign up for free"
             },
             "standar":{
-                "titulo":"Standar",
-                "precio":"$15",
+                "tittle":"Standar",
+                "price":"$15",
                 "small":"/mo",
                 "adittional":{
                     "firstLi":"20 users included",
@@ -35,8 +35,8 @@
                 "button":"Get started" 
             },
             "premium":{
-                "titulo":"Premium",
-                "precio":"$29",
+                "tittle":"Premium",
+                "price":"$28",
                 "small":"/mo",
                 "adittional":{
                     "firstLi":"30 users included",
@@ -47,9 +47,33 @@
                 "button":"Contact us"
             }
         },
-        "secondTitule":"Compare Planes",
-        "segundoDiv":{
-
+        "secondTittle":"Compare Planes",
+        "secondDiv":{
+            "essential":{
+                "tittle":"Essential",
+                "price":"COP16,900",
+                "quality":"Buena",
+                "resolution":"720p",
+                "svg":"<svg class='bi' width='24' height='24'><use xlink:href='#check'/></svg>"                
+            },
+            "standar":{
+                "tittle":"Standar",
+                "price":"COP26,900",
+                "quality":"Mejor",
+                "resolution":"1080p",
+                "svg":"<svg class='bi' width='24' height='24'><use xlink:href='#check'/></svg>"                
+            },
+            "premium":{
+                "tittle":"Premium",
+                "price":"COP38,900",
+                "quality":"Optima",
+                "resolution":"4K+HDR",
+                "svg":"<svg class='bi' width='24' height='24' style='color: red;'><use xlink:href='#check'/></svg>"                
+            },
+            "price":"Precio mensual",
+            "quality":"Calidad de video",
+            "resolution":"Resolucion",
+            "additional":"Ve Netflix en tu TV, computadora, celular y tablet"
         }
     }
 
