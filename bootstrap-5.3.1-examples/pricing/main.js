@@ -153,3 +153,46 @@ let mainDivs= async()=>{
     )
 }
 mainDivs()
+// Footer
+let footer= async()=>{
+  let peticion = await fetch(`${path}.json`)
+  let res = await peticion.json();
+  let selecion = document.querySelector("#footer")
+  selecion.insertAdjacentHTML("beforeend",/* html */`        
+  <div class="col-12 col-md">
+  <img class="mb-2" src="${res.footer.image}" alt="" width="24" height="19">
+  <small class="d-block mb-3 text-body-secondary">${res.footer.textCampus}</small>
+</div>
+<div class="col-6 col-md">
+  <h5>${res.footer.textQuestion}</h5>
+  <ul class="list-unstyled text-small">
+    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">${res.footer.frequentsQuestions}</a></li>
+    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">${res.footer.privacity}</a></li>
+  </ul>
+</div>
+<div class="col-6 col-md">
+  <ul class="list-unstyled text-small">
+    <br>
+    <br>
+    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">${res.footer.help}</a></li>
+    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">${res.footer.cookies}</a></li>
+  </ul>
+</div>
+<div class="col-6 col-md">
+  <ul class="list-unstyled text-small">
+    <br>
+    <br>
+    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">${res.footer.netflixShop}</a></li>
+    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">${res.footer.information}</a></li>
+  </ul>
+</div>
+<div class="col-6 col-md">
+  <ul class="list-unstyled text-small">
+    <br>
+    <br>
+    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">${res.footer.terms}</a></li>
+  </ul>
+</div>`
+  )
+}
+footer()
