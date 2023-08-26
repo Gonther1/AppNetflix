@@ -1,7 +1,7 @@
 {
     "header":{
         "firstDiv":{
-            "image":"../img/Netflix-red.png"
+            "image":"img/Netflix-red.png"
         },
         "secondDiv":{
             "tittle":"Netflix",
@@ -77,7 +77,7 @@
         }
     },
     "footer":{
-        "image":"../img/n-de-netflix.png",
+        "image":"img/n-de-netflix.png",
         "textCampus":"&copy; Campuslands 2023 Bucaramanga",
         "textQuestion":"¿Preguntas? Llama al 01 800 917 1564",
         "frequentsQuestions":"Preguntas frecuentes",
